@@ -17,5 +17,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	"city" : attributes.uriParams.city
 }]]]></http:uri-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="becee4dc-3908-4e57-bcaf-a4210cb16dcc" message="#[payload]"/>
 	</flow>
 </mule>
